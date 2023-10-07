@@ -21,6 +21,10 @@ while (true)
             NumberofOccurences numberof = new NumberofOccurences();
             numberof.CheckNumberofOccurences();
             break;
+        case 5:
+            ImageFileExtension image = new ImageFileExtension();
+            image.CheckImageFileExtension();
+            break;
 
     }
 }
