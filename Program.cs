@@ -17,6 +17,10 @@ while (true)
             HtmlTags html = new HtmlTags();
             html.CheckHtmlTags();
             break;
+        case 4:
+            NumberofOccurences numberof = new NumberofOccurences();
+            numberof.CheckNumberofOccurences();
+            break;
 
     }
 }
