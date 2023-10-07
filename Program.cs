@@ -25,6 +25,10 @@ while (true)
             ImageFileExtension image = new ImageFileExtension();
             image.CheckImageFileExtension();
             break;
+        case 6:
+            WebsiteAddress website = new WebsiteAddress();
+            website.CheckWebsiteAddress();
+            break;
 
     }
 }
